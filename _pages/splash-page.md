@@ -5,16 +5,16 @@ permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.1"
   overlay_image: /assets/images/mathew-schwartz-iGheu30xAi8-unsplash.jpg
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+  # actions:
+  #   - label: "Download"
+  #     url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
-excerpt: "Bespoke Computational Design and Building Information Modeling (BIM) solutions"
+excerpt: "Bespoke Computational Design and BIM solutions"
 intro: 
-  - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) solutions, with a strong focus on Revit and Rhino.
-With a deep understanding of parametric modeling, data-driven workflows, and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.'
+  - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) with a strong focus on Revit and Rhino.
+With a deep understanding of parametric modelling, data-driven workflows and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
