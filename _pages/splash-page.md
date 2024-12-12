@@ -1,5 +1,5 @@
 ---
-title: "Splash Page"
+title: "Bespoke training and automated workflows"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -10,10 +10,11 @@ header:
   actions:
     - label: "Download"
       url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
-excerpt: "We are specialized in Computational Design and Building Information Modeling (BIM) solutions, with a strong focus on Revit and Rhino."
+  caption: "Photo [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
+excerpt: "Bespoke Computational Design and Building Information Modeling (BIM) solutions"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) solutions, with a strong focus on Revit and Rhino.
+With a deep understanding of parametric modeling, data-driven workflows, and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
