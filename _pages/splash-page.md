@@ -10,7 +10,7 @@ header:
   # actions:
   #   - label: "Download"
   #     url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
+  caption: "photo [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
 excerpt: "Bespoke Computational Design and BIM solutions"
 intro: 
   - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) with a strong focus on Revit and Rhino.

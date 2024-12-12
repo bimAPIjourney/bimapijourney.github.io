@@ -115,3 +115,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+sass:
+  custom: "assets/css/custom.css"
