@@ -9,7 +9,7 @@ tags:
 
 We are going to create  a macro in C# that zooms to a selected element.
 
-![alt text](https://file.notion.so/f/f/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/749dff2b-8cfe-468a-a1d5-37dcc362c308/image.png?table=block&id=1577403c-e188-805b-bfda-eb9a7a57da69&spaceId=9addda3f-6809-43bd-80aa-fc9f6e5fe54e&expirationTimestamp=1734220800000&signature=A_kc_ZkoNPYyyVgjRmtcNX69GGSQ_MWmNHmxifj2dyo&downloadName=image.png)
+![alt text](assets/images/image01.png)
 
 From Revit 2025 Visual Studio Code and .NET SDK 8.0 are pre-requisites for creating macros. 
 
