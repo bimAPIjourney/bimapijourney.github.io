@@ -17,3 +17,8 @@ body {
   a:hover {
     color: #005f99; /* Replace with your desired color code */
   }
+
+  .page__hero--overlay .page__title,.page__hero--overlay .page__meta,.page__hero--overlay .comment__date,.page__hero--overlay .page__lead,.page__hero--overlay .btn {
+    color: #ff0000;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5)
+}
