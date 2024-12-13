@@ -9,7 +9,7 @@ tags:
 
 We are going to create  a macro in C# that zooms to a selected element.
 
-![alt text](/assets/images/image01.png)
+![alt text](/assets/images/zoomSelect/image01.png)
 
 From Revit 2025 Visual Studio Code and .NET SDK 8.0 are pre-requisites for creating macros. 
 
@@ -17,7 +17,7 @@ More information can be found in this article: https://help.autodesk.com/view/RV
 
 From the manage tab let’s open the macro manager and create a new Module. This is a file that will contain all our macros. Give it a name and click ok.
 
-![alt text](/assets/images/image02.png)
+![alt text](/assets/images/zoomSelect/image02.png)
 
 VSCode will automatically launch and we can start writing our macro straight away. This a new feature from Revit 2025. If you are using an older version the code will be the same.
 
