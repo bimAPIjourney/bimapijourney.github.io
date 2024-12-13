@@ -27,23 +27,27 @@ There is already an example of a macro commented in green so we can follow that 
 
 To test that everything is working we can try showing a dialog box with the classic Hello World. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/28bdb589-5d03-4a30-94cf-98cdceae9e84/image.png)
+```
+public void ZoomSelected(){
+  TaskDialog.Show("Hello", "Hello World")
+}
+```
 
 The first parameter is the title of the window and the second is the message we want to display. Both of them are text parameters (strings) so we need to use quotation marks.
 
 If we go back to Revit, the macro is still not visible under our Module. The reason is we did not “build” it yet. Our code that we write in C# needs to be compiled into machine readable code. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/bbef768b-bdcc-42dd-81b3-a40757dce10d/image.png)
+![alt text](/assets/images/zoomSelect/image02.png)
 
 So let’s go back to visual studio code and run our macro using the play button in the top right corner.
 
 In the terminal we see that our macro has now been converted into a .dll file.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/c59a7146-a2a8-4f62-87cd-118f054c28a1/image.png)
+![alt text](/assets/images/zoomSelect/image04.png)
 
 So if we go back in Revit we can now see our macro under the module we created before.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/26b00ae3-8f80-42de-83a0-530269c13f73/image.png)
+![alt text](/assets/images/zoomSelect/image05.png)
 
 If we select the macro and click run it will be executed and we will see our “Hello World” task dialog popping up.
 
@@ -53,23 +57,25 @@ When moving our code from Python to C# remember that we need to declare the data
 
 The method we are going to use to zoom to the selected element is called ShowElements and it belongs to the UIDocument namespace. 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/c9fdf083-9bf9-4b79-9291-87fbe67d5e73/image.png)
+![alt text](/assets/images/zoomSelect/image06.png)
 
 We can get the UIDocument by using the ActiveUIDocument property of the Application.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/3fdc2a32-02ff-49ab-bf5a-276a16a9bd4a/image.png)
+![alt text](/assets/images/zoomSelect/image07.png)
 
 We are lucky, the code we are writing sits inside an Application class so to access the ActiveUIDocument property we can just write: *this.ActiveUIDocument* or *ActiveUIDocument* whatever makes more sense for you. 
 
 It returns an UIDocument object so we can write:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/d5d86f68-b9bc-49e0-b50c-647526ea4e75/image.png)
+```
+UIDocument uidoc = this.ActiveUIDocument;
+```
 
 The other parameter we need is the Element to zoom to. Which in our case is the current selected element.
 
 We can get the selected element again by using another property of the UIDocument. The Selection property has a method called GetElementIds which returns a list of elementids that we can pass to our showelements method.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/9a2216ab-e047-44c9-955e-97a8333b5162/image.png)
+![alt text](/assets/images/zoomSelect/image08.png)
 
 So to access the UIDocument Selection property we can write uidoc,Selection and to access the GetEleemntIds method we add .GetElementIds with open and close parenthesis to denote that we are calling a method.
 
@@ -77,11 +83,15 @@ If we hover the mouse onto GetElementIds, VSCode tells us that this method retur
 
 So our variable data type will ne an ICollection of ElementId and we can name it selectedElements or whatever if you prefer.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/fd7069d9-a2f2-40cf-a75e-9ed34c0bcba0/image.png)
+```
+ICollection<ElementId> selectedElements = uidoc.Selection.GetElementIds();
+```
 
 Now we have all the inputs required to call the ShowElements method. Firstly the uidoc class where the methods belong to. And secondly the list of elements that we just created.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9addda3f-6809-43bd-80aa-fc9f6e5fe54e/cf995626-d89d-4b20-98ce-eb19783fe5f4/image.png)
+```
+uidoc.ShowElements(selectedElements);
+```
 
 Remember to compile the code before switching back to Revit.
 
