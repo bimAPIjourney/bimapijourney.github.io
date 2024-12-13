@@ -113,10 +113,8 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: collection
+      layout: single
       author_profile: false
-      collection: portfolio
-      entries_layout: grid
 
 category_archive:
   type: liquid
