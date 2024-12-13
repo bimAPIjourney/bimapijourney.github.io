@@ -11,7 +11,7 @@ header:
   #   - label: "Download"
   #     url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "photo [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
-excerpt: "Bespoke Computational Design and BIM solutions"
+excerpt: "Computational Design and BIM solutions"
 intro: 
   - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) with a strong focus on Revit and Rhino.
 With a deep understanding of parametric modelling, data-driven workflows and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.'
