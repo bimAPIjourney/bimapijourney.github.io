@@ -27,7 +27,7 @@ There is already an example of a macro commented in green so we can follow that 
 
 To test that everything is working we can try showing a dialog box with the classic Hello World. 
 
-```
+```cs
 public void ZoomSelected(){
   TaskDialog.Show("Hello", "Hello World")
 }
@@ -67,7 +67,7 @@ We are lucky, the code we are writing sits inside an Application class so to acc
 
 It returns an UIDocument object so we can write:
 
-```
+```cs
 UIDocument uidoc = this.ActiveUIDocument;
 ```
 
@@ -83,13 +83,13 @@ If we hover the mouse onto GetElementIds, VSCode tells us that this method retur
 
 So our variable data type will ne an ICollection of ElementId and we can name it selectedElements or whatever if you prefer.
 
-```
+```cs
 ICollection<ElementId> selectedElements = uidoc.Selection.GetElementIds();
 ```
 
 Now we have all the inputs required to call the ShowElements method. Firstly the uidoc class where the methods belong to. And secondly the list of elements that we just created.
 
-```
+```cs
 uidoc.ShowElements(selectedElements);
 ```
 
