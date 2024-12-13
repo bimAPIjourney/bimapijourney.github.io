@@ -32,7 +32,7 @@ feature_row:
     url: "https://revitapijourney.github.io/training/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/scripts.jpg
+  - image_path: /assets/images/scripts.png
     title: "Custom scripts and addins"
     excerpt: "Development of custom scripts and add-ins to enhance efficiency and maximize time savings."
     url: "https://revitapijourney.github.io/scripts/"
