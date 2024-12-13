@@ -7,9 +7,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/mathew-schwartz-iGheu30xAi8-unsplash.jpg
-  # actions:
-  #   - label: "Download"
-  #     url: "https://github.com/mmistakes/minimal-mistakes/"
+  actions:
+    - label: "Contact"
+      url: "mailto:revitapijourney@gmail.com"
   caption: "ph. [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
 excerpt: "Computational Design and BIM solutions"
 intro: 
