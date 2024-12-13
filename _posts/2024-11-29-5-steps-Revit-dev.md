@@ -7,8 +7,6 @@ tags:
   - updates
 ---
 
-## 5 Steps to become a Revit API Developer
-
 1. Reproduce the output of the Dynamo nodes that you use the most using Python
 2. Convert a Dynamo script into Python code
 3. Convert the Python code into C# macro
