@@ -23,7 +23,9 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline" style="color: #ee5f5b">
+      <h1 id="page-title" class="page__title" itemprop="headline" >
+        <!-- #00ff0a -->
+        <!-- style="color:  #83ff00" -->
         {% if paginator and site.paginate_show_page_num %}
           {{ site.title }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
