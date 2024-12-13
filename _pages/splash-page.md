@@ -9,7 +9,7 @@ header:
   overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   overlay_image: /assets/images/mathew-schwartz-iGheu30xAi8-unsplash.jpg
   actions:
-    - label: "Contact"
+    - label: "Contact us"
       url: "mailto:revitapijourney@gmail.com"
   caption: "ph. [mathew schwartz](https://unsplash.com/photos/a-close-up-of-a-computer-circuit-board-iGheu30xAi8)"
 excerpt: "Computational Design and BIM solutions"
@@ -24,17 +24,20 @@ feature_row:
     url: "https://revitapijourney.github.io/blog/5-steps-Revit-dev/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-  #   # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-  #   alt: "placeholder image 2"
-  #   title: "Placeholder 2"
-  #   excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  #   url: "#test-link"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--primary"
-  # - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-  #   title: "Placeholder 3"
-  #   excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/training.webp
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    # alt: "placeholder image 2"
+    title: "Bespoke training"
+    excerpt: "Customized training sessions designed to meet the specific needs of the client."
+    url: "https://revitapijourney.github.io/training/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/scripts.jpg
+    title: "Custom scripts and addins"
+    excerpt: "Development of custom scripts and add-ins to enhance efficiency and maximize time savings."
+    url: "https://revitapijourney.github.io/scripts/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
