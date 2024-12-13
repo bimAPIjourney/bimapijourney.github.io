@@ -16,7 +16,7 @@
 #https://github.com/mmistakes/minimal-mistakes
 
 title: Revit API Journey
-email:
+email: revitapijourney@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -34,6 +34,10 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+atom_feed:
+  hide: true
+
 
 include:
   - _pages
@@ -61,7 +65,7 @@ plugins:
 
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "assets/images/Revit API journey logo.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     # - label: "Website"
@@ -91,6 +95,7 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
+     
 
 defaults:
   # _posts
@@ -118,6 +123,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-sass:
-  custom: "assets/css/custom.css"
