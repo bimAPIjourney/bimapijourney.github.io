@@ -17,7 +17,7 @@ intro:
   - excerpt: 'We are specialized in Computational Design and Building Information Modeling (BIM) with a strong focus on Revit and Rhino.
 With a deep understanding of parametric modelling, data-driven workflows and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.'
 feature_row:
-  - image_path: assets/images/logoLarge.png
+  - image_path: assets/images/logoLarge.webp
     # alt: "placeholder image 1"
     title: "5 Steps to become a Revit Developer"
     excerpt: "Dynamo is an excellent tool for quickly prototyping ideas and creating scripts, but issues like deployment challenges, version compatibility, limited out-of-the-box nodes, and slower execution times can sometimes hinder the user experience."
