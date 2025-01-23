@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 #https://github.com/mmistakes/minimal-mistakes
 
-title: Revit API Journey
-email: revitapijourney@gmail.com
+title: BIM API Journey
+email: bimapijourney@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Bespoke training and automated workflows.
   Computational Design and BIM solutions.
@@ -64,7 +64,7 @@ plugins:
 
 author:
   # name   : "First Lastname"
-  avatar : "assets/images/Revit API journey logo.png"
+  avatar : "assets/images/bimapijourney.png"
   # bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     # - label: "Website"
@@ -90,7 +90,7 @@ footer:
       url: "https://github.com/"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/revit-api-journey?trk=public_post_feed-actor-name&originalSubdomain=au"
+      url: "https://www.linkedin.com/company/revit-api-journey"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
