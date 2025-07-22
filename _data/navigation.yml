@@ -9,5 +9,7 @@ main:
     url: /tags/
   - title: "Training"
     url: /training/
+  - title: "Revit Add-ins"
+    url: /revit-addins/
   - title: "About"
     url: /about/
