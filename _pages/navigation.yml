@@ -1,0 +1,15 @@
+main:
+  - title: "Services"
+    url: /services/
+  - title: "Posts"
+    url: /posts/
+  # - title: "Categories"
+  #   url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Training"
+    url: /training/
+  - title: "Revit Add-ins"
+    url: /revit-addins/
+  - title: "About"
+    url: /about/
