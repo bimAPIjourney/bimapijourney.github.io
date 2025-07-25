@@ -9,4 +9,4 @@ Computational Design and BIM solutions.
 
 We are specialized in Computational Design and Building Information Modeling (BIM) with a strong focus on Revit and Rhino. With a deep understanding of parametric modelling, data-driven workflows and automation, we work closely with multidisciplinary teams to provide creative and time saving solutions.
 
-<a href="mailto:revitapijourney@gmail.com" class="btn btn--info">Contact us</a>
+<a href="mailto:bimapijourney@gmail.com" class="btn btn--info">Contact us</a>
