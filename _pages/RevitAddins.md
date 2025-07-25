@@ -24,7 +24,6 @@ Works with Revit 2024.
 ## 🧰 Workflow
   
 <table>
- <tbody>
     <tr>
      <td style="width: 50px;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
      <td><b>Export Parameters</b></td>
@@ -90,6 +89,5 @@ Works with Revit 2024.
      <tr>
         <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="ExcelSelection" src="https://github.com/user-attachments/assets/a48f83c6-d673-43cc-bd7f-4b544291e852" /></td>
     </tr>
-  </tbody>
 </table>
 
