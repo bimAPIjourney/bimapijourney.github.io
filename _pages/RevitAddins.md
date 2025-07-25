@@ -25,8 +25,8 @@ Works with Revit 2024.
   
 <table>
  <tbody>
-    <tr style="border: none;">
-     <td style="width: 10px;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
+    <tr>
+     <td style="width: 50px;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
      <td><b>Export Parameters</b></td>
     </tr>
     <tr>
@@ -37,19 +37,19 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
      <tr>
-       <td style="width: 10px;"><img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/></td>
-        <td><b>Mapping File</b></td>
+      <td style="width: 50px;"><img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/></td>
+      <td><b>Mapping File</b></td>
     </tr>
     <tr>
-        <td colspan = "2" style="border: none;">Click on <mark><b>Mapping File</b></mark> and add the element category name and the parameters you want to export (1 parameter per cell).</td>
+      <td colspan = "2" style="border: none;">Click on <mark><b>Mapping File</b></mark> and add the element category name and the parameters you want to export (1 parameter per cell).</td>
     </tr>
      <tr>
-        <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="Mapping" src="https://github.com/user-attachments/assets/f56f6ef8-5f03-483d-8683-77bac726da01"/></td>
+      <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="Mapping" src="https://github.com/user-attachments/assets/f56f6ef8-5f03-483d-8683-77bac726da01"/></td>
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td style="width:10px;"> <img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/> </td>
-        <td><b>To Excel</b></td>
+       <td style="width:50px;"><img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/></td>
+       <td><b>To Excel</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Select the elements in Revit and click <mark><b>To Excel</b></mark> to export their parameters. Make sure the Excel file is closed before exporting to Excel.</td>
@@ -70,7 +70,7 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td style="width:10px;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/>  </td>
+        <td style="width:50px;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/></td>
         <td><b>From Excel</b></td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td style="width:10px"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
+        <td style="width:50px"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
         <td><b>Excel Selection</b></td>
     </tr>
     <tr>
