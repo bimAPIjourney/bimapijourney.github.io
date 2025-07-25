@@ -85,7 +85,7 @@ Works with Revit 2024.
         <td><b>Excel Selection</b></td>
     </tr>
     <tr>
-        <td colspan = "2" style="border: none;">Select UniqueIds in Excel and press CTRL+C to save them in the Clipboard. In Revit, click on <mark><b>Excel Selection</mark></b> to add the elements to the active selection.</td>
+        <td colspan = "2" style="border: none;">Select UniqueIds in Excel and press CTRL+C to save them in the Clipboard. In Revit, click on <mark><b>Excel Selection</b></mark> to add the elements to the active selection.</td>
     </tr>
      <tr>
         <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="ExcelSelection" src="https://github.com/user-attachments/assets/a48f83c6-d673-43cc-bd7f-4b544291e852" /></td>
