@@ -24,26 +24,27 @@ Works with Revit 2024.
 ## 🧰 Workflow
   
 <table>
-    <tr>
-        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/> </td>
-        <td style="border: none;"><b>Export Parameters</b></td>
+ <tbody>
+    <tr style="border: none;">
+     <td style=border: none; width=59;" ><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
+     <td style="border: none;"><b>Export Parameters</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Select an element of the category you are intersted in (Title Blocks, Sheets, Walls, Columns...) and click <mark><b>Export Parameters</b></mark>.</td>
     </tr>
      <tr>
-        <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="ExportParameters" src="https://github.com/user-attachments/assets/3cd5f825-cd22-462f-bfa0-13dcf03961be" /></td>
+        <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="ExportParameters" src="https://github.com/user-attachments/assets/3cd5f825-cd22-462f-bfa0-13dcf03961be"/></td>
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
      <tr>
-        <td width="59.08" style=border: none;"> <img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/> </td>
+        <td width="59" style=border: none;"> <img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/></td>
         <td style="border: none;"><b>Mapping File</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Click on <mark><b>Mapping File</b></mark> and add the element category name and the parameters you want to export (1 parameter per cell).</td>
     </tr>
      <tr>
-        <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="Mapping" src="https://github.com/user-attachments/assets/f56f6ef8-5f03-483d-8683-77bac726da01" /></td>
+        <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="Mapping" src="https://github.com/user-attachments/assets/f56f6ef8-5f03-483d-8683-77bac726da01"/></td>
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
@@ -90,5 +91,6 @@ Works with Revit 2024.
      <tr>
         <td colspan = "2" style="border: none;" align="center"><img width="1310" height="860" alt="ExcelSelection" src="https://github.com/user-attachments/assets/a48f83c6-d673-43cc-bd7f-4b544291e852" /></td>
     </tr>
+  </tbody>
 </table>
 
