@@ -25,7 +25,7 @@ Works with Revit 2024.
   
 <table>
     <tr>
-        <td width="59.08" style=border: none;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/> </td>
+        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/> </td>
         <td style="border: none;"><b>Export Parameters</b></td>
     </tr>
     <tr>
@@ -47,7 +47,7 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td width="59.08" style=border: none;"> <img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/> </td>
+        <td width="59" style=border: none;"> <img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/> </td>
         <td style="border: none;"><b>To Excel</b></td>
     </tr>
     <tr>
@@ -58,7 +58,7 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
      <tr>
-        <td width="59.08" style=border: none;"> </td>
+        <td width="59" style=border: none;"> </td>
         <td style="border: none;"><b>Edit parameters in Excel</b></td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td width="59.08" style=border: none;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/>  </td>
+        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/>  </td>
         <td style="border: none;"><b>From Excel</b></td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@ Works with Revit 2024.
  <tr style="border: none;"><td style="border: none;"></td></tr>
   <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td width="59.08" style=border: none;"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
+        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
         <td style="border: none;"><b>Excel Selection</b></td>
     </tr>
     <tr>
