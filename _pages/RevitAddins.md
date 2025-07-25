@@ -26,8 +26,8 @@ Works with Revit 2024.
 <table>
  <tbody>
     <tr style="border: none;">
-     <td style="border: none; width: 59;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
-     <td style="border: none;"><b>Export Parameters</b></td>
+     <td style="width: 10px;"><img src="https://github.com/user-attachments/assets/579e12ba-a77c-4f31-9d40-931f362d7a8b" alt="revXcelParameters" width="32" height="32"/></td>
+     <td><b>Export Parameters</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Select an element of the category you are intersted in (Title Blocks, Sheets, Walls, Columns...) and click <mark><b>Export Parameters</b></mark>.</td>
