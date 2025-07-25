@@ -37,8 +37,8 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
      <tr>
-       <td style="border: none; width: 59;"> <img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/></td>
-        <td style="border: none;"><b>Mapping File</b></td>
+       <td style="width: 10px;"><img src="https://github.com/user-attachments/assets/026abaf3-def5-46f4-8dd0-f28ce6e9ec6c" alt="revXcelMapping" width="32" height="32"/></td>
+        <td><b>Mapping File</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Click on <mark><b>Mapping File</b></mark> and add the element category name and the parameters you want to export (1 parameter per cell).</td>
@@ -48,8 +48,8 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td style="border: none;width:59;"> <img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/> </td>
-        <td style="border: none;"><b>To Excel</b></td>
+        <td style="width:10px;"> <img src="https://github.com/user-attachments/assets/77ec44b7-ab31-46b0-946c-b049e8d80166" alt="revXcelToExcel" width="32" height="32"/> </td>
+        <td><b>To Excel</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Select the elements in Revit and click <mark><b>To Excel</b></mark> to export their parameters. Make sure the Excel file is closed before exporting to Excel.</td>
@@ -59,8 +59,8 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
      <tr>
-        <td width="59" style=border: none;"> </td>
-        <td style="border: none;"><b>Edit parameters in Excel</b></td>
+        <td style="width:10px;"> </td>
+        <td><b>Edit parameters in Excel</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;"> Change parameters values in Excel and save the file. Only non read-only parameters can be modified. Parameters must be of type string, number or integer (i.e. the addin does not support changing View Templates or other parameters stored as ElementId). </td>
@@ -70,8 +70,8 @@ Works with Revit 2024.
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/>  </td>
-        <td style="border: none;"><b>From Excel</b></td>
+        <td style="width:10px;"><img src="https://github.com/user-attachments/assets/cf414da0-175d-436e-b021-69e2b4a3c921" alt="revXcelImport" width="32" height="32"/>  </td>
+        <td><b>From Excel</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">After saving the Excel file, click on <mark><b>From Excel</b></mark> to modify the previously selected element paramters.</td>
@@ -80,10 +80,9 @@ Works with Revit 2024.
         <td colspan = "2" style="border: none;" align="center"><img width="1310" height="704" alt="FromExcel" src="https://github.com/user-attachments/assets/0f4398d1-3680-4540-818f-9418e5ee8687" /></td>
     </tr>
  <tr style="border: none;"><td style="border: none;"></td></tr>
-  <tr style="border: none;"><td style="border: none;"></td></tr>
       <tr>
-        <td width="59" style=border: none;"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
-        <td style="border: none;"><b>Excel Selection</b></td>
+        <td style="width:10px"><img src="https://github.com/user-attachments/assets/40b480ac-ffa8-4700-92aa-3af7e1a45a98" alt="revXcelSelect32" width="32" height="32"/></td>
+        <td><b>Excel Selection</b></td>
     </tr>
     <tr>
         <td colspan = "2" style="border: none;">Select UniqueIds in Excel and press CTRL+C to save them in the Clipboard. In Revit, click on *Excel Selection* to add the elements to the active selection.</td>
