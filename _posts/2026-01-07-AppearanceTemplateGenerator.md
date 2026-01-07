@@ -18,3 +18,7 @@ Load the file in the generator and input the property values separated by a comm
 <img width="3520" height="1497" alt="image" src="https://github.com/user-attachments/assets/f2f10f82-2370-45de-90ef-0780a0b8efc0" />
 
 Click on Generate and load the .aptmpl file in Revizto.
+
+Disclaimer:
+Tested with Revizto Version 5.16.7
+Use at your own risk.
