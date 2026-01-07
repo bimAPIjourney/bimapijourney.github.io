@@ -1,6 +1,6 @@
 ---
 title: "Revizto Apperance Template Generator"
-date: 2026-01-07T15:34:30-04:00
+date: 2026-01-07T08:34:30-04:00
 categories:
   - blog
 tags:
